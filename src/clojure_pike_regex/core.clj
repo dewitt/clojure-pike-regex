@@ -3,7 +3,7 @@
 (declare matchhere)  ; forward declaration
 
 (defn tails [coll]
-  (take (+ 1 (count coll)) (iterate rest coll)))
+  (take (inc (count coll)) (iterate rest coll)))
 
 (defn matchstar [c regexp text]
   (some
