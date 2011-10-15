@@ -1,5 +1,4 @@
-(ns clojure-pike-regex.core
-  (:use clojure.test))
+(ns clojure-pike-regex.core)
 
 (declare matchhere)  ; forward declaration
 
